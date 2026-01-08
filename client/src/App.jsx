@@ -91,7 +91,7 @@ export default function App() {
 
       {/* Flow Canvas */}
       <div className="flex-1">
-        <ReactFlow nodes={nodes} edges={edges} nodeTypes={nodeTypes} fitView>
+        <ReactFlow nodes={nodes} edges={edges} nodeTypes={nodeTypes} panOnScroll={true} fitView>
           <Background gap={16} />
           <Controls />
         </ReactFlow>
