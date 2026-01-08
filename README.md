@@ -54,7 +54,7 @@ env
 
 ```
 MONGO_URI=<your_mongodb_url>
-JWT_SECRET=<your_jwt_secret>
+OPENROUTER_API_KEY=<your_api_key>
 PORT=3000
 
 ```
@@ -99,4 +99,4 @@ npm run dev
 ## Live Link
 
 ```
-https://to-do-app-client-seven.vercel.app/
+https://ai-flow-builder-client.vercel.app/
