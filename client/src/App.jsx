@@ -58,8 +58,6 @@ export default function App() {
         response,
       });
       toast.success("Saved successfully!");
-      setPrompt("");
-      setResponse("");
     } catch (error) {
       console.log(error.message);
       toast.error(error.message);
