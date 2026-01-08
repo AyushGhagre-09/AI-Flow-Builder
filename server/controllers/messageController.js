@@ -23,7 +23,6 @@ export const textMessageController = async (req, res) => {
       });
 
       const { content } = completion.choices[0].message;
-      console.log(content);
       let answer = sanitizeHtml(content, {
          allowedTags: [],
          allowedAttributes: {},
