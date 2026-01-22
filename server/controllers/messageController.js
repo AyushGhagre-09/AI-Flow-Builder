@@ -12,7 +12,7 @@ export const textMessageController = async (req, res) => {
       }
 
       const completion = await openRouter.chat.send({
-         model: 'mistralai/mistral-7b-instruct:free',
+         model: 'mistralai/devstral-2512:free',
          messages: [
             {
                role: 'user',
